@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    # beri akses ke port 8080
+    ###---###
+    restart: always
+    # set ke dalam satu network dengan frontend
+    ###---###
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    # beri akses ke port 5173
+    ###---###
+    restart: always
+    # pastikan backend sudah berjalan sebelum frontend
+    ###---###
+    # set environment variable untuk backend URL
+    environment:
+      - VITE_BACKEND_URL=
+    # set ke dalam satu network dengan backend
+    ###---###
+
+# buat network
