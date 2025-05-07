@@ -66,6 +66,12 @@ Setelah berhasil:
 
 ---
 
+## 🔗 Source Tutorial
+- Docker Compose: [TUTORIAL DOCKER COMPOSE (BAHASA INDONESIA)](https://www.youtube.com/watch?v=3nFbRd4FnRo) - [How Compose works | Docker Docs](https://docs.docker.com/compose/)
+- Push Docker Image to DockerHub: [How to Push and Pull a Docker Image from Docker Hub](https://www.digitalocean.com/community/tutorials/how-to-push-and-pull-docker-images)
+
+---
+
 ## 🧪 Penilaian
 
 | Aspek | Bobot |
