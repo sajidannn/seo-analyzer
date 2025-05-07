@@ -38,6 +38,8 @@ File `docker-compose.yml` belum lengkap. Anda diminta untuk:
 ### ✅ Tambahan:
 - Buat jaringan bernama `seo-analyzer-network` di bagian paling bawah `docker-compose.yml`
 
+![image](https://github.com/user-attachments/assets/dce440e8-9c05-4971-8722-4b3976c44c98)
+
 ---
 
 ## 📤 Langkah Upload
